@@ -12,8 +12,9 @@ class StatisticsState(StatesGroup):
 class ReceiptInput(StatesGroup):
     input1 = State()
     input2 = State()
+    input3 = State()
 
 
 class ReceiptsProducts(StatesGroup):
     receipts = State()
-    products = State()
+    concrete_receipt = State()
