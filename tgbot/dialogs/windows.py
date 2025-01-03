@@ -149,7 +149,7 @@ d_receipts = Dialog(
         #     hide_on_single_page=True,
         # ),
         List(
-            Format(" 🔸 {item.name}\n--------------------------------------------------------------"),
+            Format(" 🔸 {item.product_name} -<b>{item.quantity} шт.</b>\n"),
             id="products_",
             items="products",
         ),
